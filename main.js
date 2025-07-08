@@ -12,7 +12,7 @@
 // DOM Elements
 // DOM Elements: Get references to the location, NORAD input fields, and the search button
 // DOM Elements: Get references to the location, NORAD input fields, and the search button
-const key = "686be05cc0591499869782qymf5c8c9";
+
    document.getElementById("search").addEventListener("click", function () {
     const locationInput = document.getElementById("location").value;
     const noradInput = document.getElementById("norad").value;
