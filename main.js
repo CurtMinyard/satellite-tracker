@@ -22,7 +22,8 @@
     }
 
     const encodedLocation = encodeURI(locationInput);
-    const geoUrl = `https://geocode.maps.co/search?q=${locationInput},tn&api_key=${key}`
+ const geoUrl = `https://geocode.maps.co/search?q=${locationInput},tn&api_key=${key}`
+
 
     fetch(geoUrl)
         .then(function (response) {
